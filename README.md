@@ -24,13 +24,17 @@ Unreal's UnrealPak. It finds Bodycam through Steam; if it cannot, set `BCM_GAME`
 
 ## Try it first (10 minutes)
 
-The kit comes with a small test map. Close Bodycam, open **Git Bash** in the kit folder and run:
+The kit comes with a small test map. Close Bodycam, then open **Git Bash** in the kit folder. Git Bash is not in
+the kit: it comes with Git for Windows (see What you need). Open the kit folder in Explorer, right-click an empty spot >
+**Show more options** > **Open Git Bash here**. Do not double-click `newmap.sh`: its window closes before you can
+read it. In the Git Bash window type:
 
 ```
 bash Scripts/newmap.sh KitSample "Kit Sample" Sample/kit_sample_photo.png 0.1.0
 ```
 
-When it says `DONE`, start Bodycam > Play > Custom > **Kit Sample**. If you see an arena with an orange crate, your PC
+The first run takes a few minutes. When it says `DONE`, start Bodycam > Play > Custom > **Kit Sample**. If it stops
+with a line starting `***`, that line says what to fix. If you see an arena with an orange crate, your PC
 can make maps. Remove the test card with `Saved/release/app/BodycamMapInstaller.exe --remove KitSample`.
 
 ## A full example: Prison V2P
