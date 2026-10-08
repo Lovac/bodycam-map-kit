@@ -1,0 +1,21 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Bodycam native placeholders",
+	"Description": "Editor stand-ins for classes that live in the Bodycam game exe, so a level saves the same data as the game's own levels. No gameplay code. Never packed: the game uses its real classes.",
+	"Category": "Sandbox",
+	"CanContainContent": false,
+	"Modules": [
+		{
+			"Name": "HostMigrationSystem",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "Bodycam",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}

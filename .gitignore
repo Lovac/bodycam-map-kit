@@ -1,0 +1,17 @@
+# Unreal
+Intermediate/
+DerivedDataCache/
+Saved/*
+!Saved/hpgate/
+!Saved/prison2/
+!Saved/torre_v3/
+!Saved/release/
+Saved/hpgate/data/extract/
+Saved/prison2/cook_only_logs/
+Saved/prison2/ship/templates/
+Saved/prison2/ship/tools/thumb_out/
+Saved/torre_v3/tools/.ue_lock
+*.pdb
+__pycache__/
+# game files, taken from your own install by Scripts/kit_game_files.py
+Saved/menu_test/
